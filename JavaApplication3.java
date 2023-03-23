@@ -21,7 +21,11 @@ public class JavaApplication3 {
             System.out.print("desea continuar si o no ?");
             resp = sc.nextLine(); 
         }while(resp.equals("si"));
-
+        System.out.println("La cantidad de pares es: "+ contPar );
+        
+        System.out.println("La cantidad de impares es: "+ contImpar );
+        
+        System.out.println("la suma de pares es: "+ sumaPar );
 
     }
     
