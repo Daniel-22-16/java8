@@ -9,6 +9,12 @@ public class JavaApplication3 {
         int contPar = 0;
         int sumaPar = 0;
         String resp;
+        do {
+            System.out.print("ingrese un numero:");
+            int num  = sc.nextInt();
+            sc.nextLine();
+            if(num%2==1){
+            }else{
 
     }
     
