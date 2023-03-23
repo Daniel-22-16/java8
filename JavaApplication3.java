@@ -15,6 +15,13 @@ public class JavaApplication3 {
             sc.nextLine();
             if(num%2==1){
             }else{
+                contPar++;
+                sumaPar= sumaPar + num;    
+            }
+            System.out.print("desea continuar si o no ?");
+            resp = sc.nextLine(); 
+        }while(resp.equals("si"));
+
 
     }
     
